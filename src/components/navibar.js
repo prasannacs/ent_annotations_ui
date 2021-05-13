@@ -25,7 +25,7 @@ class NaviBar extends React.Component {
               height="30"
               className="d-inline-block align-top"
             />
-             &nbsp; Visualization & Analytics
+             &nbsp; Analytics
           </Navbar.Brand>
         </Navbar>
       </div>

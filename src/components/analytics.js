@@ -1,11 +1,21 @@
 import React, { Component } from "react";
+import Alert from 'react-bootstrap/Alert'
+import Button from 'react-bootstrap/Button'
 
 class Analytics extends React.Component {
 
-    render()    {
-        return(
+    render() {
+        return (
             <div>
-                <iframe width="1700" height="720" src="https://datastudio.google.com/embed/reporting/1975351a-f4cd-43fc-942a-3a8d496dccd5/page/ZMC7B" frameborder="0" allowfullscreen></iframe>
+                <div>
+                    <Alert variant="success">
+                        <Alert.Heading>Data Studio Report for Queried Twitter Handles</Alert.Heading>
+                        <hr />
+                        <p className="mb-1">
+                            <Alert.Link href="https://datastudio.google.com/reporting/1975351a-f4cd-43fc-942a-3a8d496dccd5" target="_blank"> Report Here!</Alert.Link>
+                        </p>
+                    </Alert>
+                </div>
             </div>
         );
     }
