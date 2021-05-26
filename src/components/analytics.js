@@ -9,10 +9,10 @@ class Analytics extends React.Component {
             <div>
                 <div>
                     <Alert variant="success">
-                        <Alert.Heading>Data Studio Report for Queried Twitter Handles</Alert.Heading>
+                        <Alert.Heading>Search Results</Alert.Heading>
                         <hr />
                         <p className="mb-1">
-                            <Alert.Link href="https://datastudio.google.com/reporting/1975351a-f4cd-43fc-942a-3a8d496dccd5" target="_blank"> Report Here!</Alert.Link>
+                            <Alert.Link href="https://datastudio.google.com/reporting/1975351a-f4cd-43fc-942a-3a8d496dccd5" target="_blank">Click Me!</Alert.Link>
                         </p>
                     </Alert>
                 </div>

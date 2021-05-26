@@ -10,12 +10,12 @@ class NaviBar extends React.Component {
           <Navbar.Brand href="#home">
             <img
               alt=""
-              src="https://static.thenounproject.com/png/3147006-200.png"
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSPB_pDGaTKHoQVE-76Dw57Wda-X6IWONmGJw&usqp=CAU"
               width="30"
               height="30"
               className="d-inline-block align-top"
             />
-             &nbsp; Search
+             &nbsp; Search &nbsp;
           </Navbar.Brand>
           <Navbar.Brand href="#analytics">
             <img
@@ -25,7 +25,27 @@ class NaviBar extends React.Component {
               height="30"
               className="d-inline-block align-top"
             />
-             &nbsp; Analytics
+             &nbsp; Analytics &nbsp;
+          </Navbar.Brand>
+          <Navbar.Brand href="#industryApps">
+            <img
+              alt=""
+              src="https://www.pngarea.com/pngm/51/6152612_scarce-png-live-demo-png-transparent-png.png"
+              width="30"
+              height="30"
+              className="d-inline-block align-top"
+            />
+             &nbsp; Example Industry Apps &nbsp;
+          </Navbar.Brand>          
+          <Navbar.Brand href="#readme">
+            <img
+              alt=""
+              src="http://digitallearningtree2.com/wp-content/uploads/2014/11/read-me-app-icon.png"
+              width="30"
+              height="30"
+              className="d-inline-block align-top"
+            />
+             &nbsp; Read Me &nbsp;
           </Navbar.Brand>
         </Navbar>
       </div>
